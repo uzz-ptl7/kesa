@@ -44,7 +44,7 @@ const Footer = () => {
             <Button size="lg" variant="secondary" className="bg-white text-primary hover:bg-white/90 px-8">
               Book Free Trial
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary px-8">
+            <Button size="lg" variant="outline" className="border-white text-white bg-black hover:bg-white hover:text-primary px-8">
               Call Now: +250 788 123 456
             </Button>
           </div>
@@ -75,7 +75,7 @@ const Footer = () => {
                   <a
                     key={social.label}
                     href={social.href}
-                    className="w-10 h-10 bg-muted rounded-full flex items-center justify-center hover:bg-primary hover:text-white transition-colors"
+                    className="w-10 h-10 bg-muted rounded-full flex items-center justify-center hover:bg-primary bg-black hover:text-white transition-colors"
                     aria-label={social.label}
                   >
                     <social.icon size={18} />

@@ -242,7 +242,7 @@ const Teams = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-white text-white hover:bg-white hover:text-primary"
+                className="border-white text-white bg-black hover:bg-white hover:text-primary"
               >
                 Schedule Trial
               </Button>

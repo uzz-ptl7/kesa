@@ -40,7 +40,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-white text-white hover:bg-white hover:text-secondary px-8 py-4 text-lg font-semibold"
+              className="border-white text-white bg-black hover:bg-white hover:text-secondary px-8 py-4 text-lg font-semibold"
             >
               <Play className="mr-2" size={20} /> Book a Trial
             </Button>
