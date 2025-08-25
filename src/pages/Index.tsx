@@ -2,6 +2,7 @@ import React from 'react';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import Programs from '@/components/Programs';
+import Teams from '@/components/Teams';
 import Schedule from '@/components/Schedule';
 import Testimonials from '@/components/Testimonials';
 import Footer from '@/components/Footer';
@@ -12,6 +13,7 @@ const Index = () => {
       <Navigation />
       <Hero />
       <Programs />
+      <Teams />
       <Schedule />
       <Testimonials />
       <Footer />

@@ -19,6 +19,7 @@ const Navigation = () => {
     { label: 'Home', href: '#home' },
     { label: 'About Us', href: '#about' },
     { label: 'Programs', href: '#programs' },
+    { label: 'Teams', href: '#teams' },
     { label: 'Schedule', href: '#schedule' },
     { label: 'Membership', href: '#membership' },
     { label: 'Contact', href: '#contact' },
