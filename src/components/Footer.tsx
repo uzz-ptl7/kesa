@@ -168,18 +168,20 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 Kigali Elite Sports Academy. All rights reserved.
+              © 2025 Kigali Elite Sports Academy. All rights reserved.
             </p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Privacy Policy
-              </a>
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Terms of Service
-              </a>
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Cookie Policy
-              </a>
+            <div className="flex items-center mt-4 md:mt-0">
+              <p className="text-muted-foreground mx-2">
+                Made with ❤️ in Rwanda by the{" "}
+                <a 
+                  href="https://www.sitecraftersz.co/" 
+                  className="text-primary hover:text-primary/80 transition-colors underline" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  Sitecrafters Team
+                </a>
+              </p>
             </div>
           </div>
         </div>
